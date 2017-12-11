@@ -1,0 +1,30 @@
+<- Matrix ----------------------------------------------------------------------
+The Matrix class only handles a 4x4 matrix.
+It has constant values for preset:
+IDENTITY	= 'IDENTITY',
+SCALE		= 'SCALE',
+RX			= 'Ox ROTATION',
+RY			= 'Oy ROTATION',
+RZ			= 'Oz ROTATION',
+TRANSLATION	= 'TRANSLATION',
+PROJECTION	= 'PROJECTION';
+
+On which depends:
+IDENTITY	= nothing,
+SCALE		= the scale,
+RX			= angle of rotation,
+RY			= angle of rotation,
+RZ			= angle of rotation,
+TRANSLATION	= vector of the translation,
+PROJECTION	= Field of view, Ratio, near, and far distances
+
+Once a matrix is created it cannot be changed. Therefore no setters.
+
+The following methods are provided:
+
+* mult() : return a new matrix of the multiplication of the instance by
+the supplied argument.
+
+* transfomVertex() : return a new vertex resulting from the tranformation
+of the vertex by the matrix.
+---------------------------------------------------------------------- Matrix ->

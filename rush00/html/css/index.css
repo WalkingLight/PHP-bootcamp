@@ -1,0 +1,43 @@
+/*##################################*/
+/*########## Div elements ##########*/
+/*##################################*/
+
+#container
+{
+	margin-top: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+#container>div
+{
+	margin: 15px;
+	width: 300px;
+
+}
+
+#container>div
+{
+	padding: 0 calc((100% - 500px * 3) / 6);
+}
+
+#container>div
+{
+	height: 500px;
+	background-clip: content-box;
+	background-color: #909090;
+}
+
+
+/*############################*/
+/*########## Center ##########*/
+/*############################*/
+
+.img_link
+{
+	color: black;
+	text-decoration: none;
+}
+

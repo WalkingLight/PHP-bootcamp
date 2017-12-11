@@ -1,0 +1,36 @@
+<- Vector ----------------------------------------------------------------------
+The vector class handles vectors in a 3D space.
+It handles three coordinates, it also has a homogeneous parameter (always = 0).
+
+An instance is constructed from two vertex orig and a dest.
+It represents the vector between the two points.
+new Vector(array('dest'=>[instance of vertex], 'orig'=>[instance of vertex]);
+if 'orig' is not given then it will default to (0,0,0);
+
+All attributes are private.  Once a vector is created you cannot change
+it's values. Therefore only use getters.
+
+The following methods are provided in this class:
+
+* magnitude() : return norm of current instanced vector;
+
+* normalize() : return the normalized vector (if it is already normalized
+a fresh copy of the instance is returned);
+
+* add(Vector $rhs) : return the sum of the current instance and $rhs.
+
+* sub(Vector $rhs) : return the diffence of the current instance and $rhs.
+
+* opposite() : return the opposite vector.
+
+* scalarProduct( $k ) : return the product of the constant and the
+current instance.
+
+* dotProduct( $rhs ) : return the scalar product of $rhs and the current
+instance.
+
+* cos( $rhs ) : returns the cosine angle between $rhs and the current instance.
+
+* crossProduct( $rhs ) : return the cross product of $rhs and the current
+instance (right hand mark).
+---------------------------------------------------------------------- Vector ->

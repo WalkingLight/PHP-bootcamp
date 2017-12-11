@@ -1,0 +1,210 @@
+/*##################################*/
+/*########## Div elements ##########*/
+/*##################################*/
+
+#header
+{
+	width: 80%;
+	margin: auto;
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 13px 13px 12px #000;
+}
+
+#left
+{
+	text-align: center;
+	width: 10%;
+	height: 400px;
+	margin-left: 12%;
+	margin-top: 20px;
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 13px 13px 12px #000;
+}
+
+#center
+{
+	width: 52%;
+	height: 540px;
+	margin-left: 24%;
+	margin-top: -398px;
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 13px 13px 12px #000;
+}
+
+#right
+{
+	text-align:center;
+	width: 10%;
+	height: 400px;
+	margin-left: 78%;
+	margin-top: -540px;
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 13px 13px 12px #000;
+}
+
+#chat
+{
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 70px;
+	width: 30%;
+	height: 130px;
+	background-color: #8cfd8e;
+	border-radius: 10px;
+	box-shadow: 13px 13px 12px #000;
+}
+
+/*#########################*/
+/*########## Top ##########*/
+/*#########################*/
+
+.left_42
+{
+	margin-left: 15px;
+	width: 450px;
+}
+
+.right_top_header
+{
+	float: right;
+	margin: 10px 10px 0 0;
+	width: 25px;
+}
+
+.right_bot_header
+{
+	float: right;
+	margin: 90px -26px 0 0;
+	width: 25px;
+}
+
+.magnifier
+{
+	float: right;
+	text-align: right;
+	margin-bottom: -30px;
+	width: 240px;
+}
+
+/*##########################*/
+/*########## Left ##########*/
+/*##########################*/
+
+.arrow
+{
+	margin-top: 10px;
+	width: 60px;
+}
+
+.hand
+{
+	margin-top: 10px;
+	width: 60px;
+}
+
+.eye
+{
+	border: solid red 7px;
+	border-radius: 7px;
+	margin-top: 10px;
+	width: 60px;
+}
+
+.tool
+{
+	margin-top: 10px;
+	width: 60px;
+}
+
+.talk
+{
+	margin-top: 10px;
+	width: 60px;
+}
+
+/*############################*/
+/*########## Center ##########*/
+/*############################*/
+
+.cluster
+{
+	margin-left: 1%;
+	margin-top: 1%;
+	width: 98%;
+	height: 97%;
+}
+
+/*###########################*/
+/*########## Right ##########*/
+/*###########################*/
+
+.book
+{
+	margin-top: 10px;
+	width: 70px;
+}
+
+.towel
+{
+	margin-top: 10px;
+	width: 80px;
+}
+
+.wall
+{
+	margin-top: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: auto;
+	height: 70px;
+	background-image: url("resources/brick.jpg");
+}
+
+/*##############################*/
+/*########## Chat Box ##########*/
+/*##############################*/
+
+.first_paragraph
+{
+	margin-left: 10px;
+	font-size: 15px;
+	font-family: Arial, serif;
+}
+
+.second_paragraph
+{
+	margin-left: 10px;
+	font-size: 15px;
+	font-family: Arial, serif;
+	font-style: italic;
+}
+
+.text_1
+{
+	font-size: 30px;
+}
+
+.text_2
+{
+	text-shadow: 6px 6px 4px #d00;
+}
+
+.text_box
+{
+	border: 2px inset;
+	width: 65%;
+	height: 15px;
+	margin-left: 15px;
+}
+
+.button
+{
+	margin-left: 5px;
+	width: 80px;
+	height: 22px;
+	font-size: 12px;
+}
